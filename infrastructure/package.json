@@ -1,0 +1,27 @@
+{
+  "name": "bovitrack-infrastructure",
+  "version": "1.0.0",
+  "description": "AWS CDK infrastructure for BoviTrack platform",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --all",
+    "destroy": "cdk destroy --all",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.90.0",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "aws-cdk": "^2.90.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
